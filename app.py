@@ -47,7 +47,7 @@ def run_adversarial_swarm(context):
     # 3. Narrator
     n = client.chat.completions.create(
         model="gpt-4o-mini",
-        messages=[{"role": "system", "content": "You are the Senior Compliance Adjudicator. Synthesize the debate into a final, objective risk brief for a FINTRAC STR."},
+        messages=[{"role": "system", "content": "You are the Senior Compliance Adjudicator. Synthesize the debate into a final, objective risk brief for a FINTRAC STR. bjective risk brief for a FINTRAC STR. Give final recommendation if case should be reported."},
                   {"role": "user", "content": f"Debate: Prosecutor said '{p}' vs Red Team said '{r}'"}]
     ).choices[0].message.content
     
