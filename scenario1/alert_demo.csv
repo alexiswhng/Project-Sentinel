@@ -1,0 +1,2 @@
+alert_id,case_id,client_id,client_name,age,occupation,declared_annual_income,risk_rating,alert_type,alert_trigger,alert_created_date,monitoring_period_start,monitoring_period_end
+ALT90210,C12345,C482193,Daniel Chen,27,Retail Sales Associate,38000,Low,Structuring and Rapid Movement,Multiple structured cash deposits followed by large international wire transfer,2026-02-17,2026-01-01,2026-02-16

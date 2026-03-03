@@ -1,0 +1,3 @@
+Alert_ID,Rule_Triggered,Severity,Description
+AL-301,Offshore Activity,High,Large incoming wire from high-risk zone
+AL-302,U-Turn Transaction,High,Funds arrived and left within 12 hours

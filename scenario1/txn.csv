@@ -1,0 +1,4 @@
+Date,Amount,Mode,Location,Counterparty
+2026-02-01,9800,Cash Deposit,Branch A,Self
+2026-02-01,9700,Cash Deposit,Branch B,Self
+2026-02-02,19000,Wire Out,Online,Crypto Exchange
