@@ -1,0 +1,4 @@
+Alert_ID,Rule_Triggered,Severity,Description
+AL-401,Funnel Account,Critical,Numerous small cash deposits followed by large wire out
+AL-402,High-Risk Geo,High,Outbound funds to high-risk secrecy jurisdiction
+AL-403,Rapid Depletion,High,99% of funds moved within 4 hours of arrival
