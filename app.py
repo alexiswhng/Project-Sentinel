@@ -11,7 +11,7 @@ st.caption("AI-Native Suspicious Transaction Report (STR) Generator")
 # --- HOW IT WORKS SECTION ---
 with st.expander("ℹ️ How It Works", expanded=True):
     st.markdown("""
-    **Project Sentinel reimagines how Suspicious Transaction Reports (STRs) are created — not by layering AI onto legacy workflows, but by re-architecting the process.**
+    **Project Sentinel reimagines how Suspicious Transaction Reports (STRs) are created — not by layering AI onto old/existing workflows, but by re-architecting the process.**
 
     #### 1️. Case Ingestion
     Upload:
