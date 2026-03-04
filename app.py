@@ -5,6 +5,54 @@ from fpdf import FPDF
 from streamlit_ace import st_ace
 import openai
 
+st.title("🛡️ Project Sentinel")
+st.caption("AI-Native Suspicious Transaction Report (STR) Generator")
+
+# --- HOW IT WORKS SECTION ---
+with st.expander("ℹ️ How It Works", expanded=True):
+    st.markdown("""
+    ### 🔎 AI-Native STR Workflow
+
+    **Project Sentinel reimagines how Suspicious Transaction Reports (STRs) are created — not by layering AI onto legacy workflows, but by rebuilding the process from first principles.**
+
+    #### 1️⃣ Case Ingestion
+    Upload:
+    - KYC file  
+    - Alert file  
+    - Transaction ledger  
+
+    The system consolidates structured data into a unified investigation context.
+
+    #### 2️⃣ Adversarial AI Review
+    Three AI agents simulate internal compliance debate:
+    - **Prosecutor Agent** → Identifies criminal intent, structuring, and red flags  
+    - **Red Team Agent** → Challenges bias and proposes legitimate explanations  
+    - **Adjudicator Agent** → Synthesizes both views into an objective risk brief  
+
+    This mirrors real-world compliance escalation and reduces confirmation bias.
+
+    #### 3️⃣ Human-in-the-Loop Review
+    Investigators:
+    - Review subject profile and transactions  
+    - Examine AI debate outputs  
+    - Make the final reporting decision  
+
+    AI assists. Humans adjudicate.
+
+    #### 4️⃣ AI-to-Regulator Mapping
+    If approved, the system:
+    - Converts the risk brief into FINTRAC’s structured JSON schema  
+    - Validates formatting  
+    - Allows final human editing before submission  
+
+    #### 5️⃣ Structured Output
+    The final output is regulator-ready JSON — no copy/paste, no portal re-entry, no static templates.
+
+    ---
+    ⚖️ **Core Principle:**  
+    Sentinel is an AI-native compliance architecture where reasoning happens before documentation — and humans remain accountable for final decisions.
+    """)
+    
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Project Sentinel: AI-Native STR", layout="wide")
 
