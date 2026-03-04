@@ -5,8 +5,8 @@ from fpdf import FPDF
 from streamlit_ace import st_ace
 import openai
 
-st.title("🛡️ Project Sentinel")
-st.caption("AI-Native Suspicious Transaction Report (STR) Generator")
+# --- PAGE CONFIG ---
+st.set_page_config(page_title="Project Sentinel: AI-Native STR", layout="wide")
 
 # --- HOW IT WORKS SECTION ---
 with st.expander("ℹ️ How It Works", expanded=True):
@@ -53,8 +53,7 @@ with st.expander("ℹ️ How It Works", expanded=True):
     Sentinel is an AI-native compliance architecture where reasoning happens before documentation — and humans remain accountable for final decisions.
     """)
     
-# --- PAGE CONFIG ---
-st.set_page_config(page_title="Project Sentinel: AI-Native STR", layout="wide")
+
 
 # --- SIDEBAR FOR OPENAI KEY ---
 st.sidebar.header("🔑 Configuration")
