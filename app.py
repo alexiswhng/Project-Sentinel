@@ -9,8 +9,6 @@ import openai
 st.title("🛡️ Project Sentinel")
 st.caption("AI-Native Suspicious Transaction Report (STR) Generator")
 
-st.set_page_config(layout="wide")
-
 # --- HOW IT WORKS SECTION ---
 with st.expander("ℹ️ How It Works", expanded=True):
     st.markdown("""
