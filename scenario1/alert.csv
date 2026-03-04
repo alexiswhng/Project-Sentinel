@@ -1,0 +1,3 @@
+Alert_ID,Rule_Triggered,Severity,Description
+AL-101,Structuring,High,Multiple cash deposits under 10k threshold
+AL-102,Rapid Depletion,Medium,Funds moved to crypto within 24 hours
