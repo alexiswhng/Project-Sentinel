@@ -6,7 +6,10 @@ from streamlit_ace import st_ace
 import openai
 
 # --- PAGE CONFIG ---
-st.set_page_config(page_title="Project Sentinel: AI-Native STR", layout="wide")
+st.title("🛡️ Project Sentinel")
+st.caption("AI-Native Suspicious Transaction Report (STR) Generator")
+
+st.set_page_config(layout="wide")
 
 # --- HOW IT WORKS SECTION ---
 with st.expander("ℹ️ How It Works", expanded=True):
